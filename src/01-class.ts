@@ -13,7 +13,7 @@ console.log(date2);
 
 let myVar;
 
-class MyDate {
+export class MyDate {
   year: number;
   month: number;
   day: number;
@@ -27,3 +27,5 @@ class MyDate {
 
 const myDate = new MyDate(2021, 3, 13);
 console.log(myDate);
+
+
